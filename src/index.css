@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    background-color: var(--bgColor);
+}
+
+:root{
+    --primaryColor:#185BDE;
+    --bgColor:#eee;
+    --textLight:#bbb
+}
+
+.card{
+    @apply w-[420px] p-6 bg-white rounded-lg shadow-md flex flex-col gap-3
+}
+
+.heading{
+    @apply text-xl font-semibold
+}
+
+.secondaryText{
+    @apply text-sm text-center font-semibold text-gray-400
+}
+
+.container{
+    @apply w-full min-h-screen flex items-center justify-center
+}
