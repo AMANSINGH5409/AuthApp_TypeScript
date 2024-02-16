@@ -11,7 +11,7 @@ const MainButton = ({ type, title, onclick }: IMainButton) => {
     <button
       onClick={onclick}
       type={type}
-      className="bg-[var(--primaryColor)] px-6 py-2 text-white text-sm font-semibold rounded-xl"
+      className="bg-[var(--primaryColor)] px-6 py-3 text-white text-sm font-semibold rounded-lg"
     >
       {title}
     </button>

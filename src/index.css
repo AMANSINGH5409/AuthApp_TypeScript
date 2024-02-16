@@ -9,7 +9,11 @@ html,body{
 :root{
     --primaryColor:#185BDE;
     --bgColor:#eee;
-    --textLight:#bbb
+    --textLight:#666;
+}
+
+::selection{
+    user-select: none;
 }
 
 .card{
